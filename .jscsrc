@@ -1,24 +1,16 @@
 {
-  "esnext": true,
-  "preset": "google",
-
-  "fileExtensions": [".js", ".jsx"],
-
-  "requireCurlyBraces": true,
-  "requireParenthesesAroundIIFE": true,
-
-  "maximumLineLength": 120,
-  "validateLineBreaks": "LF",
-  "validateIndentation": 4,
-
-  "disallowKeywords": ["with"],
-  "disallowSpacesInsideObjectBrackets": null,
-  "disallowImplicitTypeConversion": ["string"],
-
-  "safeContextKeyword": "that",
-
-  "excludeFiles": [
-    "dist/**",
-    "node_modules/**"
-  ]
+  "preset": "airbnb",
+  "fileExtensions":[
+      ".js",
+      ".jsx"
+  ],
+  "esnext":true,
+  "requireTrailingComma":false,
+  "validateIndentation":2,
+  "requireShorthandArrowFunctions":false,
+  "excludeFiles": ["build/**", "node_modules/**"],
+  "validateQuoteMarks": null,
+  "disallowTrailingWhitespace":false,
+  "requireSpacesInsideObjectBrackets":false,
+  "disallowSpacesInsideTemplateStringPlaceholders": null
 }
